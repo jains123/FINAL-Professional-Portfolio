@@ -92,7 +92,7 @@ body {
                 @include flexContainer(row, center, center);
 
                 button {
-                    @include customButton(white);
+                    @include customButton($tertiaryColour);
                 }
             }
         }
@@ -101,7 +101,7 @@ body {
     //ABOUT SECTION
     .about {
         background-color: $primaryColour;
-        padding: 2% 2%;
+        padding: 2% 15%;
         margin: 0 auto;
         text-align: center;
         color: $secondaryText;
@@ -154,6 +154,8 @@ body {
             }
         }
     }
+
+    //PROJECTS SECTION
 
     .projects-section {
         @include flexContainer(column, center, center);
@@ -277,7 +279,7 @@ body {
                         .project-buttons {
 
                             button {
-                                width: 100px;
+                                width: 150px;
                             }
                         }
                     }

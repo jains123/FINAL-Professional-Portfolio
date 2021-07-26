@@ -173,7 +173,7 @@ body header .home-section div:nth-child(2) button:hover {
 
 body .about {
   background-color: #FFFFFF;
-  padding: 2% 2%;
+  padding: 2% 15%;
   margin: 0 auto;
   text-align: center;
   color: #000000;
@@ -450,7 +450,7 @@ body .contact-section .contact-buttons button:hover {
     height: auto;
   }
   body main .projects-section .projects-container .project .project-buttons button {
-    width: 100px;
+    width: 150px;
   }
 }
 
