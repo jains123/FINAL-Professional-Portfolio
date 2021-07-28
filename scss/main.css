@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   color: #CCCCCC;
   letter-spacing: 1px;
@@ -51,16 +51,20 @@ body header nav .nav-links {
 body header nav .nav-links a {
   text-decoration: none;
   color: #000000;
-  font-size: .75rem;
+  font-size: .9rem;
   display: block;
   padding: 0.2em 0;
   position: relative;
 }
 
+body header nav .nav-links a:hover {
+  border-bottom: 1px solid black;
+}
+
 body header nav h4 {
   font-size: 1.25rem;
   color: #000000;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 body header nav h4 span {
@@ -115,8 +119,7 @@ body header .home-section .buttons-container {
 body header .home-section h1 {
   font-size: 9vw;
   color: #000000;
-  text-shadow: 3px 4px 7px rgba(81, 67, 21, 0.8);
-  font-weight: 350;
+  font-weight: 500;
 }
 
 body header .home-section h2 {
@@ -148,7 +151,7 @@ body header .home-section div:nth-child(2) {
 body header .home-section div:nth-child(2) button {
   width: 25vw;
   height: 2rem;
-  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: .75rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -192,7 +195,7 @@ body .about .bio {
 }
 
 body .about .bio p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 25px;
   font-weight: 500;
 }
@@ -320,7 +323,7 @@ body .projects-section .project .project-buttons {
 body .projects-section .project .project-buttons button {
   width: 25vw;
   height: 2rem;
-  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: .75rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -380,7 +383,7 @@ body .contact-section .contact-buttons a {
 body .contact-section .contact-buttons button {
   width: 25vw;
   height: 2rem;
-  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: .75rem;
   font-weight: 600;
   letter-spacing: 1px;
@@ -569,7 +572,7 @@ body .contact-section .contact-buttons button:hover {
 .buttons-container button {
   width: 25vw;
   height: 2rem;
-  font-family: "Mulish", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: .75rem;
   font-weight: 600;
   letter-spacing: 1px;
