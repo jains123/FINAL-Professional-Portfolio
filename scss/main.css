@@ -18,6 +18,16 @@ body a {
   color: #FFFFFF;
 }
 
+.js-scroll {
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.js-scroll.scrolled {
+  opacity: 1;
+}
+
 @use "base";
 body header {
   height: 100vh;
@@ -119,7 +129,7 @@ body header .home-section .buttons-container {
 body header .home-section h1 {
   font-size: 9vw;
   color: #000000;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 body header .home-section h2 {
